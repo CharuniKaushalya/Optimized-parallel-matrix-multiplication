@@ -16,7 +16,6 @@ double matrixC[1000][1000];
 
 void populateMatrix(int n);
 void multiplyMatrix(int n);
-void transpose(int n);
 
 int main(int argc, char** argv){
 	int n = atoi(argv[1]);  //getting the input for the matrix size
