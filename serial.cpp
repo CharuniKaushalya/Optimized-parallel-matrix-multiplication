@@ -87,7 +87,7 @@ double multiplyMatrix(int n) {
 
 int main(int argc, const char * argv[]) {
 	int n = atoi(argv[1]);  //getting the input for the matrix size
-	double elapsed_time = multiplyMatrix(n);
-	cout << endl << "Time for Multiplication: " << elapsed_time << endl;
+	double time = multiplyMatrix(n);
+	cout << time << endl;
 	return 0;
 }

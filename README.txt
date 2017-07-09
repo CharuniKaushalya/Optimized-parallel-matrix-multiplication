@@ -10,7 +10,7 @@ in terminal run command, Give value for n(n is the size of the square matrices)
 in terminal run command 
 g++ -fopenmp -o parallel.out parallel.cpp
 
-***** Execute parallel program *****
+*** Execute parallel program ***
 after compiling, run command , Give value for n(n is the size of the square matrices)
 ./parallel.out n
 
@@ -18,6 +18,6 @@ after compiling, run command , Give value for n(n is the size of the square matr
 in terminal run command 
 g++ -fopenmp -o optimized.out optimized.cpp
 
-***** Execute optimized parallel program *****
+*** Execute optimized parallel program ***
 after compiling, run command , Give value for n(n is the size of the square matrices)
 ./optimized.out n
