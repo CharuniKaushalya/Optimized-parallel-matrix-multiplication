@@ -1,6 +1,6 @@
 *** Compile sequential program ***
 in terminal run command 
-	g++ -fopenmp -o serial.out sequential.cpp
+g++ -fopenmp -o serial.out sequential.cpp
 
 *** Execute sequential program ***
 in terminal run command, Give value for n(n is the size of the square matrices)
@@ -14,7 +14,7 @@ g++ -fopenmp -o parallel.out parallel.cpp
 after compiling, run command , Give value for n(n is the size of the square matrices)
 ./parallel.out n
 
-*** Compile potimised parallel program ***
+*** Compile optimised parallel program ***
 in terminal run command 
 g++ -fopenmp -o optimized.out optimized.cpp
 
